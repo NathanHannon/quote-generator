@@ -4,7 +4,6 @@ const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
-// const githubBtn = document.getElementById('github')
 
 // Show Loading
 function loading() {
@@ -48,12 +47,6 @@ async function getQuote() {
     }
 }
 
-// Go to Github page
-// function goGithub() {
-//     const githubUrl = 'https://github.com/NathanHannon/quote-generator'
-//     window.open(githubUrl, '_blank');
-// }
-
 // Tweet Quote
 function tweetQuote() {
     const quote = quoteText.innerText;
@@ -65,7 +58,6 @@ function tweetQuote() {
 // Event Listeners
 newQuoteBtn.addEventListener('click', getQuote);
 twitterBtn.addEventListener('click', tweetQuote);
-// githubBtn.addEventListener('click', goGithub);
 
 // On Load
 getQuote();
