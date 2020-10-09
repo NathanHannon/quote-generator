@@ -4,7 +4,7 @@ const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
-const githubBtn = document.getElementById('github')
+// const githubBtn = document.getElementById('github')
 
 // Show Loading
 function loading() {
@@ -65,7 +65,7 @@ function tweetQuote() {
 // Event Listeners
 newQuoteBtn.addEventListener('click', getQuote);
 twitterBtn.addEventListener('click', tweetQuote);
-githubBtn.addEventListener('click', goGithub);
+// githubBtn.addEventListener('click', goGithub);
 
 // On Load
 getQuote();
