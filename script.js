@@ -49,10 +49,10 @@ async function getQuote() {
 }
 
 // Go to Github page
-function goGithub() {
-    const githubUrl = 'https://github.com/NathanHannon/quote-generator'
-    window.open(githubUrl, '_blank');
-}
+// function goGithub() {
+//     const githubUrl = 'https://github.com/NathanHannon/quote-generator'
+//     window.open(githubUrl, '_blank');
+// }
 
 // Tweet Quote
 function tweetQuote() {
